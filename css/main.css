@@ -1,0 +1,65 @@
+@import url(./fonts.css);
+
+
+/* CUSTOM PROPS */
+:root {
+    --orange: #F18128;
+    --dark-blue: #040D1F;
+    --white: #fff;
+    --black: #000;
+    --Comfortaa: "Comfortaa";
+    --Montserrat: "Montserrat";
+    --Roboto: "Roboto";
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: var(--Montserrat);
+}
+
+/* BTN */
+.btn {
+    display: inline-block;
+    padding: 17px 47px;
+    background-color: var(--orange);
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    color: var(--black);
+    width: max-content;
+    transition: .5s;
+
+}
+.btn:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn:active {
+    opacity: .7;
+}
+
+/* TITLE */
