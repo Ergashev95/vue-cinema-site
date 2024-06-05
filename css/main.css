@@ -72,3 +72,25 @@ body {
     width: max-content;
 
 }
+
+/* SITE-ADS */
+.site-ads {
+    display: block;
+    background: linear-gradient(90deg, #0031AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.site-ads__span {
+    font-family: var(--Comfortaa);
+    max-width: 166px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* SITE-ADS */
