@@ -138,6 +138,14 @@
         flex-direction: column;
         row-gap: 20px;
     }
+    .films-cards {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .card-item {
+        max-width: unset;
+        width: 98%;
+    }
 }
 @media (max-width: 480px) {}
 @media (max-width: 320px) {}
